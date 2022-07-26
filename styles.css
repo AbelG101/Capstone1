@@ -299,3 +299,34 @@ a {
   text-align: center;
   margin: 20px 0;
 }
+
+/* footer */
+
+footer {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.footer-poprax {
+  margin:  20px;
+  color: #c4ff44;
+  font-size: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 80%;
+  margin: 10px auto;
+}
+
+footer .social-media-icons {
+  font-size: 20px;
+}
+
+.footer-content {
+  font-weight: lighter;
+  line-height: 27px;
+}
