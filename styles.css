@@ -19,3 +19,19 @@ a {
   color: #fff;
   text-decoration: none;
 }
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.menu-icon {
+  font-size: 30px;
+  color: #c4ff44;
+}
