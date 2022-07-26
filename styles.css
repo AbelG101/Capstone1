@@ -194,3 +194,96 @@ a {
   margin-top: 20px;
   border-radius: 10px;
 }
+
+/* --------------About Us---------------- */
+
+.about-icons {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.about-us-section header {
+  background: url(./images/about-us.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 10px;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-section header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.about-us-section h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: #c4ff44;
+  font-size: 50px;
+  border-bottom: 1px solid #c4ff44;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.about-content {
+  padding: 20px;
+}
+
+.about-content p {
+  line-height: 27px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.about-content .email-link {
+  display: block;
+  text-decoration: underline;
+  color: #c4ff44;
+  text-align: center;
+}
+
+.about-us,
+.ticketing
+{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.about-us-section h2 {
+  font-family: 'Permanent Marker', cursive;
+  border-bottom: 1px solid #c4ff44;
+  font-size: 50px;
+  margin: 10px auto;
+}
+
+.concert p {
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.concerts-info {
+  display: flex;
+  flex-wrap: wrap;
+} 
+
+.concerts-info .info {
+  width: 50%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.info h3, 
+.ticketing-info h3
+{
+  font-size: 40px;
+  color: #c4ff44;
+}
