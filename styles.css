@@ -35,3 +35,19 @@ a {
   font-size: 30px;
   color: #c4ff44;
 }
+
+.heading-content {
+  padding: 20px;
+  height: 100%;
+}
+
+.heading-content h1 {
+  color: #ffffff;
+  font-family: 'Permanent Marker', cursive;
+  margin-bottom: 20px;
+}
+
+.heading-content p {
+  padding: 20px 0;
+  line-height: 27px;
+}
