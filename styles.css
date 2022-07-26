@@ -14,3 +14,8 @@ body {
   background: linear-gradient(90deg, rgba(20,54,94,1) 0%, rgba(49,2,84,1) 100%);
   color: #fff;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
