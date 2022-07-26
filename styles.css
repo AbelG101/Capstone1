@@ -145,3 +145,52 @@ a {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+/* -------------------Featured Performers Section-------------------------- */
+
+.featured-performers {
+  text-align: center;
+}
+
+.featured-performers h2 {
+  font-family: 'Permanent Marker', cursive;
+  display: inline-block;
+  margin: 20px 0;
+  border-bottom: 1px solid #c4ff44;
+}
+
+.performers-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.performers {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  text-align: left;
+  flex: 1 1 300px;
+}
+
+.performers-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.performance-descrtiption .performance-info {
+  font-weight: lighter;
+  margin: 10px 0;
+}
+
+.book-btn {
+  background-color: #c4ff44;
+  padding: 10px 20px;
+  float: right;
+  color: #000;
+  margin-top: 20px;
+  border-radius: 10px;
+}
