@@ -287,3 +287,15 @@ a {
   font-size: 40px;
   color: #c4ff44;
 }
+
+/* Ticketing */
+
+.ticketing p:first-of-type {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ticketing-info {
+  text-align: center;
+  margin: 20px 0;
+}
