@@ -319,3 +319,21 @@ footer .social-media-icons {
   text-align: center;
   margin-bottom: 20px;
 }
+
+.menu-items {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgb(20, 54, 94);
+  background: linear-gradient(90deg, rgba(20, 54, 94, 1) 0%, rgba(49, 2, 84, 1) 100%);
+  overflow-x: hidden;
+  transition: 0.4s ease-in-out;
+}
+
+.menu-items.open {
+  width: 100%;
+}
+
