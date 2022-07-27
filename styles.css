@@ -466,4 +466,9 @@ footer .social-media-icons {
     padding: 15px 30px;
     font-size: 20px;
   }
+
+  .top-songs h2,
+  .featured-performers h2 {
+    font-size: 40px;
+  }
 }
