@@ -483,4 +483,33 @@ footer .social-media-icons {
   .performers-container {
     padding: 0 60px;
   }
+
+  .partners {
+    margin-top: 25px;
+    padding: 40px;
+    border: 1px solid #c4ff44;
+  }
+  
+  .partners-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10px;
+  }
+
+  .partners h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .partners-container img {
+    width: 20%;
+    margin: 0 20px;
+    transition-duration: 0.2s;
+  }
+
+  .partners-container img:hover {
+    scale: 1.2;
+  }
 }
