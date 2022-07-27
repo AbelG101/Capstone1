@@ -479,4 +479,8 @@ footer .social-media-icons {
   .musics-container a {
     width: 33.33%;
   }
+
+  .performers-container {
+    padding: 0 60px;
+  }
 }
