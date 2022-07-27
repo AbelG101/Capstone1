@@ -395,4 +395,14 @@ footer .social-media-icons {
   .desktop {
     display: block;
   }
+
+  #home {
+    background: url(./images/desktop-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh);
+    border-radius: 0;
+  }
+  
 }
