@@ -366,3 +366,11 @@ footer .social-media-icons {
   font-size: 30px;
   color: #c4ff44;
 }
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
