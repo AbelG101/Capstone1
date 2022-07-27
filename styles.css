@@ -417,6 +417,33 @@ footer .social-media-icons {
     display: flex;
     list-style-type: none;
   }
-
   
+  .top-top-nav ul li {
+    margin: 0 20px;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 70px;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 10px #181818;
+  }
+
+  .top-nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .top-nav ul li {
+    margin: 0 20px;
+  }
+
+  .top-nav ul li a:hover {
+    color: #c4ff44;
+  }
 }
