@@ -295,3 +295,27 @@ footer .social-media-icons {
   font-weight: lighter;
   line-height: 27px;
 }
+
+.partners {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #c4ff44;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.partners-container img {
+  width: 20%;
+  margin: 0 15px;
+}
+
+.partners h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
