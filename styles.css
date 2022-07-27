@@ -548,4 +548,14 @@ footer .social-media-icons {
       width: 40%;
       margin: 20px auto;
     }
+
+    footer {
+      padding: 5px 40px;
+    }
+  
+    footer ul {
+      width: 40%;
+      margin: 15px auto;
+    }
+    
 }
