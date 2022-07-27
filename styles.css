@@ -404,5 +404,19 @@ footer .social-media-icons {
     height: calc(100vh);
     border-radius: 0;
   }
+
+  .top-top-nav {
+    background-color: #c4ff44;
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+    padding: 5px 70px;
+  }
+
+  .top-top-nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+
   
 }
