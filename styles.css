@@ -5,11 +5,12 @@
 }
 
 html {
+  scroll-behavior: smooth;
   min-height: 100%;
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   background: rgb(20, 54, 94);
   background: linear-gradient(90deg, rgba(20, 54, 94, 1) 0%, rgba(49, 2, 84, 1) 100%);
   color: #fff;
@@ -41,6 +42,8 @@ a {
 }
 
 .menu-icon {
+  padding-left: 20px;
+  padding-top: 20px;
   font-size: 30px;
   color: #c4ff44;
 }
@@ -51,8 +54,8 @@ a {
 }
 
 .heading-content h1 {
-  color: #fff;
-  font-family: 'Permanent Marker', cursive;
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -81,7 +84,7 @@ a {
 
 .top-songs h2 {
   display: inline-block;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'COCOGOOSE', sans-serif;
   margin: 20px auto;
   border-bottom: 1px solid #c4ff44;
 }
@@ -121,7 +124,7 @@ a {
 }
 
 .featured-performers h2 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'COCOGOOSE', sans-serif;
   display: inline-block;
   margin: 20px 0;
   border-bottom: 1px solid #c4ff44;
@@ -176,7 +179,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px 10px;
-  text-align: center;
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -189,8 +191,8 @@ a {
 }
 
 .about-us-section h1 {
-  font-family: 'Permanent Marker', cursive;
-  color: #c4ff44;
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #ec5242;
   font-size: 50px;
   border-bottom: 1px solid #c4ff44;
   align-self: center;
@@ -204,9 +206,16 @@ a {
 .about-content p {
   line-height: 27px;
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 20px;
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.2);
+  font-weight: lighter;
+}
+
+.about-content .contact-us {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .about-content .email-link {
@@ -224,7 +233,7 @@ a {
 }
 
 .about-us-section h2 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'COCOGOOSE', sans-serif;
   border-bottom: 1px solid #c4ff44;
   font-size: 50px;
   margin: 10px auto;
@@ -258,6 +267,7 @@ a {
 .ticketing p:first-of-type {
   text-align: center;
   margin: 20px 0;
+  font-weight: lighter;
 }
 
 .ticketing-info {
@@ -270,7 +280,7 @@ a {
 footer {
   background-color: rgba(255, 255, 255, 0.2);
   text-align: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 
 .footer-poprax {
