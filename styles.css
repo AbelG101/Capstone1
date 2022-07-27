@@ -512,4 +512,40 @@ footer .social-media-icons {
   .partners-container img:hover {
     scale: 1.2;
   }
+
+    /* ---------------------About page Desktop---------------------------- */
+
+    .about-content {
+      padding: 20px 40px;
+    }
+  
+    .about-content p {
+      width: 70%;
+      margin: 20px auto;
+      padding: 30px 40px;
+    }
+  
+    .about-content .contact-us {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .concerts-info .info {
+      width: 33.33%;
+    }
+  
+    .about-icons {
+      font-size: 70px;
+    }
+  
+    .info h3, .ticketing-info h3 {
+      font-size: 60px;
+    }
+  
+    .ticketing p:first-of-type {
+      font-size: 24px;
+      width: 40%;
+      margin: 20px auto;
+    }
 }
