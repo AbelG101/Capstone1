@@ -337,3 +337,32 @@ footer .social-media-icons {
   width: 100%;
 }
 
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu-items a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  margin: 40px 0;
+}
+
+.menu-items a:hover, .menu-items a:focus {
+  color: #c4ff44;
+}
+
+.menu-items .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 30px;
+  color: #c4ff44;
+}
