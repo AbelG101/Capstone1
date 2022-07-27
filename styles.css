@@ -471,4 +471,12 @@ footer .social-media-icons {
   .featured-performers h2 {
     font-size: 40px;
   }
+
+  .musics-container {
+    padding: 20px 60px;
+  }
+
+  .musics-container a {
+    width: 33.33%;
+  }
 }
