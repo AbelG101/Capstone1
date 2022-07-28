@@ -85,7 +85,6 @@ menu.addEventListener('click', () => {
   sideMenu.classList.toggle('open');
 })
 
-
 closeBtns.forEach((closeBtn) => {
   closeBtn.addEventListener('click', () => {
     const sideMenu = document.querySelector('.menu-items');
