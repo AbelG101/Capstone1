@@ -4,7 +4,7 @@
 # Concert Booking Website
 
 > This is a capstone website project I made for a concert booking website with only home page and about page. 
-> [Checkout the live version](https://abelg101.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+> [Checkout the live working demo](https://abelg101.github.io/Capstone1/)
 
 ## Built With
 
