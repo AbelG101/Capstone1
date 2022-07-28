@@ -8,7 +8,7 @@ const performers = [
   },
   {
     name: 'Mitski',
-    description: 'The last time Mitski went on tour, she strapped knee pads to her legs like a goalie prepping for the Stanley Cup Finals and literally threw herself into her art. There\’s no predicting what or how Mitski will perform on her tour in support of Laurel Hell • Jul 26 - 31. Tue • 8:00pm',
+    description: 'The last time Mitski went on tour, she strapped knee pads to her legs like a goalie prepping for the Stanley Cup Finals and literally threw herself into her art. There’s no predicting what or how Mitski will perform on her tour in support of Laurel Hell • Jul 26 - 31. Tue • 8:00pm',
     image: ' /images/mitski.jpg',
   },
   {

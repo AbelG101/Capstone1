@@ -493,6 +493,11 @@ footer {
     list-style-type: none;
   }
 
+  .tickets-sold li {
+    max-width: 38.5rem;
+    max-height: 21.875rem;
+  }
+
   .top-top-nav ul li {
     margin: 0 20px;
   }
@@ -514,6 +519,11 @@ footer {
     color: #000;
   }
 
+  .musics-container a {
+    flex-direction: column;
+    transition-duration: 0.2s;
+  }
+
   .top-nav ul li:last-child a {
     border: 5px solid #ec5242;
     padding: 10px;
@@ -528,11 +538,6 @@ footer {
   .top-nav ul li {
     padding: 15px;
     margin: 0 20px;
-  }
-
-  .musics-container a {
-    flex-direction: column;
-    transition-duration: 0.2s;
   }
 
   .musics-container a:hover {
@@ -595,7 +600,7 @@ footer {
   }
 
   .performers {
-    max-width: 700px; 
+    max-width: 700px;
   }
 
   .performers-container {
@@ -606,7 +611,6 @@ footer {
     align-content: center;
     width: 75%;
     min-width: 768px;
-    padding: 0 auto;
     margin: 0 auto;
   }
 
@@ -660,7 +664,7 @@ footer {
   .about-content p {
     font-size: 22px;
     width: 70%;
-    margin: 0 auto ;
+    margin: 0 auto;
     padding: 20px 30px;
   }
 
@@ -693,11 +697,6 @@ footer {
     flex-direction: row;
   }
 
-  .tickets-sold li {
-    max-width: 38.5rem;
-    max-height: 21.875rem;
-  }
-
   .tickets-sold li:first-child {
     margin-right: 10px;
     margin-bottom: 0;
@@ -726,12 +725,13 @@ footer {
     width: 100%;
     padding: 50px 40px;
   }
-  
+
   .about-footer .footer-poprax {
     color: #fff;
   }
-  
+
   .about-footer .footer-content {
     color: #fff;
-  }  
+  }
+  
 }
