@@ -3,23 +3,23 @@ const closeBtns = document.querySelectorAll('.close-menu');
 const performers = [
   {
     name: 'Shawn Mendes',
-    description: 'Wonder: The World Tour • March 14-Oct. 27',
-    image: './images/Shawn-Mendes.jpg',
+    description: 'Wonder: The World Tour • March 14-Oct. 27 the fifth concert tour by Canadian singer-songwriter Shawn Mendes, in support of his fourth studio album Wonder (2020). The concert cycle, presented by Disney+, begin in Portland on June 27, 2022, and was scheduled to end in Dublin on August 1, 2023;',
+    image: './images/shawnMendes.jpg',
   },
   {
     name: 'Mitski',
-    description: 'The last time Mitski went on tour, she strapped knee pads to her legs like a goalie prepping for the Stanley Cup Finals and literally threw herself into her art. There’s no predicting what or how Mitski will perform on her tour in support of Laurel Hell • Jul 26 - 31. Tue • 8:00pm',
-    image: ' /images/d752fef6-9e37-462b-a561-731effcee886_1657311_TABLET_LANDSCAPE_LARGE_16_9.jpg',
+    description: 'The last time Mitski went on tour, she strapped knee pads to her legs like a goalie prepping for the Stanley Cup Finals and literally threw herself into her art. There\’s no predicting what or how Mitski will perform on her tour in support of Laurel Hell • Jul 26 - 31. Tue • 8:00pm',
+    image: ' /images/mitski.jpg',
   },
   {
     name: 'Billie Eilish',
     description: 'Last summer, Billie Eilish dropped her highly-anticipated sophomore album Happier Than Ever. On February 3, she commenced a massive world tour in support of the record. Eilish will perform over 50 shows throughout the United States, Canada, Europe, and the United Kingdom • Sep 8-10',
-    image: ' ./images/TR_NationalAsset_BillieEilish-Duckwrth_SG_1200x628-7cdf61909c.jpg',
+    image: ' ./images/BillieEilish.jpg',
   },
   {
     name: 'Kendric Lamar',
-    description: 'Kendrick Lamar used his long-awaited return to wrestle with the complexities and contradictions of hero worship, commanding the spotlight even as he sidestepped its glare. This summer, he will be thrust back to centerstage: A massive trek across North America and Europe will bring Mr. Morale & The Big Steppers, his monumental and divisive fifth album • Jul. 27, 29, 30',
-    image: './images/kendrick-lamar-n95-video.png',
+    description: 'Kendrick Lamar used his long-awaited return to wrestle with the complexities and contradictions of hero worship, commanding the spotlight even as he sidestepped its glare. This summer, he will be thrust back to centerstage: • Jul. 27, 29, 30',
+    image: './images/KendrickLamar.jpg',
   },
 ];
 
@@ -31,9 +31,8 @@ window.onload = () => {
       <div class="performer-img">
       </div>
       <div class="performance-descrtiption">
+      <div class="performer-name"></div>
         <p class="performance-info"></p>
-        <div class="performer-name"></div>
-        <a class="book-btn" href="#">Book Now</a>
       </div>
     </div>
     <div class="performers">
@@ -41,9 +40,8 @@ window.onload = () => {
         
       </div>
       <div class="performance-descrtiption">
+      <div class="performer-name"></div>
         <p class="performance-info"></p>
-        <div class="performer-name"></div>
-        <a class="book-btn" href="#">Book Now</a>
       </div>
     </div>
     <div class="performers">
@@ -51,18 +49,16 @@ window.onload = () => {
         
       </div>
       <div class="performance-descrtiption">
+      <div class="performer-name"></div>
         <p class="performance-info"></p>
-        <div class="performer-name"></div>
-        <a class="book-btn" href="#">Book Now</a>
       </div>
     </div>
     <div class="performers">
       <div class="performer-img">
       </div>
       <div class="performance-descrtiption">
+      <div class="performer-name"></div>
         <p class="performance-info"></p>
-        <div class="performer-name"></div>
-        <a class="book-btn" href="#">Book Now</a>
       </div>
     </div>
   </div>`;

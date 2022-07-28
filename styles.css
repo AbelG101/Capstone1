@@ -11,8 +11,6 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  background: rgb(20, 54, 94);
-  background: linear-gradient(90deg, rgba(20, 54, 94, 1) 0%, rgba(49, 2, 84, 1) 100%);
   color: #fff;
 }
 
@@ -22,7 +20,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
-  border-radius: 0 0 20% 20%;
 }
 
 a {
@@ -45,7 +42,6 @@ a {
   padding-left: 20px;
   padding-top: 20px;
   font-size: 30px;
-  color: #c4ff44;
 }
 
 .heading-content {
@@ -60,8 +56,25 @@ a {
 }
 
 .heading-content p {
-  padding: 20px 0;
+  margin: 50px 0;
+  padding: 5px 20px;
   line-height: 27px;
+  border: 1px solid lightgray;
+}
+
+.location-date {
+  margin: 30px 0;
+}
+
+.location-date .date {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.location-date .location {
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 .events-btn {
@@ -69,92 +82,102 @@ a {
   width: 80%;
   display: block;
   text-align: center;
-  background: #c4ff44;
-  color: #000;
-  box-shadow: 5px 5px 40px 15px #a7e129;
-  border-radius: 50px;
-  padding: 10px 15px;
+  background: #ec5242;
+  color: #fff;
+  padding: 15px 25px;
 }
 
 /* ---------------------Top-Songs-section------------------------- */
 
 .top-songs {
   text-align: center;
+  background-color: #272a31;
+  padding: 20px 0;
 }
 
 .top-songs h2 {
   display: inline-block;
   font-family: 'COCOGOOSE', sans-serif;
   margin: 20px auto;
-  border-bottom: 1px solid #c4ff44;
+  border-bottom: 1px solid #ec5242;
 }
 
 .musics-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  row-gap: 1.125rem;
+  padding: 2.5rem 0.875rem;
+  justify-items: center;
 }
 
 .musics-container a {
-  display: block;
-  width: 50%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 0.5rem;
+  background-color: rgb(128 128 128 / 20%);
+  cursor: pointer;
 }
 
 .music {
   margin: 10px;
 }
 
-.music-art {
-  border-radius: 10px;
-  margin: 10px auto;
-  width: 100%;
-  height: auto;
-}
-
 .music .music-author {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #ec5242;
 }
 
 /* -------------------Featured Performers Section-------------------------- */
 
 .featured-performers {
   text-align: center;
+  background-color: #fff;
+  color: #000;
 }
 
 .featured-performers h2 {
   font-family: 'COCOGOOSE', sans-serif;
   display: inline-block;
   margin: 20px 0;
-  border-bottom: 1px solid #c4ff44;
+  border-bottom: 1px solid #ec5242;
 }
 
 .performers-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  row-gap: 3.875rem;
+  padding: 2.5rem 24px;
+  justify-items: center;
+  text-align: left;
 }
 
 .performers {
   display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin: 10px 20px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-  text-align: left;
-  flex: 1 1 300px;
+  gap: 15px;
+  justify-content: center;
 }
 
 .performers-container img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+  width: 80px;
+  height: 95px;
+}
+
+.performance-descrtiption .performer-name {
+  font-weight: bold;
 }
 
 .performance-descrtiption .performance-info {
-  font-weight: lighter;
   margin: 10px 0;
+  color: #272a31;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 0.8rem;
+  opacity: 0.7;
 }
 
 .book-btn {
@@ -179,7 +202,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px 10px;
-  height: 50vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
 }
@@ -193,10 +216,10 @@ a {
 .about-us-section h1 {
   font-family: 'COCOGOOSE', sans-serif;
   color: #ec5242;
-  font-size: 50px;
-  border-bottom: 1px solid #c4ff44;
+  font-size: 34px;
+  border-bottom: 1px solid #ec5242;
   align-self: center;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .about-content {
@@ -204,12 +227,13 @@ a {
 }
 
 .about-content p {
+  font-size: 15px;
   line-height: 27px;
   border-radius: 10px;
   padding: 20px;
-  margin-bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.2);
-  font-weight: lighter;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
 }
 
 .about-content .contact-us {
@@ -221,8 +245,12 @@ a {
 .about-content .email-link {
   display: block;
   text-decoration: underline;
-  color: #c4ff44;
   text-align: center;
+}
+
+.about-us-section .concert {
+  background-color: #d3d3d3;
+  color: #000;
 }
 
 .about-us,
@@ -230,11 +258,50 @@ a {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  border-top: 1px solid #ababab;
+  background-color: #d3d3d3;
+}
+
+.tickets-sold {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tickets-sold li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 35vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset -100vw -100vh #ec534280;
+  cursor: pointer;
+}
+
+.tickets-sold li:first-child {
+  background-image: url(./images/ticket-1jpg);
+  margin-bottom: 10px;
+}
+
+.tickets-sold li:last-child {
+  background-image: url(./images/ticket-2.jpg);
+}
+
+.tickets-sold li h3 {
+  font-size: 25px;
+  text-align: center;
 }
 
 .about-us-section h2 {
   font-family: 'COCOGOOSE', sans-serif;
-  border-bottom: 1px solid #c4ff44;
+  color: #000;
+  border-bottom: 1px solid #ec5242;
   font-size: 50px;
   margin: 10px auto;
 }
@@ -259,7 +326,7 @@ a {
 .info h3,
 .ticketing-info h3 {
   font-size: 40px;
-  color: #c4ff44;
+  color: #ec5242;
 }
 
 /* Ticketing */
@@ -267,7 +334,7 @@ a {
 .ticketing p:first-of-type {
   text-align: center;
   margin: 20px 0;
-  font-weight: lighter;
+  color: #000;
 }
 
 .ticketing-info {
@@ -278,38 +345,44 @@ a {
 /* footer */
 
 footer {
-  background-color: rgba(255, 255, 255, 0.2);
-  text-align: center;
+  background-color: #fff;
   padding: 5px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer-poprax {
   margin: 20px;
-  color: #c4ff44;
-  font-size: 20px;
-}
-
-footer ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  width: 80%;
-  margin: 10px auto;
-}
-
-footer .social-media-icons {
-  font-size: 20px;
+  color: #000;
+  font-size: 18px;
 }
 
 .footer-content {
-  font-weight: lighter;
-  line-height: 27px;
+  color: #272a31;
+  font-size: 12px;
+}
+
+.about-footer {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.about-footer .footer-poprax {
+  color: #000;
+}
+
+.about-footer .footer-content {
+  color: #272a31;
 }
 
 .partners {
-  margin-top: 25px;
+  text-align: center;
   padding: 15px;
-  background-color: #c4ff44;
+  background-color: #2e2e2e;
+  color: #fff;
 }
 
 .partners-container {
@@ -324,10 +397,12 @@ footer .social-media-icons {
 
 .partners h2 {
   font-family: 'COCOGOOSE', sans-serif;
+  display: inline-block;
   font-size: 20px;
-  color: #000;
+  color: #fff;
+  border-bottom: 1px solid #ec5242;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 auto  20px auto;
 }
 
 .menu-items {
@@ -337,8 +412,7 @@ footer .social-media-icons {
   z-index: 1;
   top: 0;
   left: 0;
-  background: rgb(20, 54, 94);
-  background: linear-gradient(90deg, rgba(20, 54, 94, 1) 0%, rgba(49, 2, 84, 1) 100%);
+  background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.4s ease-in-out;
 }
@@ -365,17 +439,12 @@ footer .social-media-icons {
   margin: 40px 0;
 }
 
-.menu-items a:hover,
-.menu-items a:focus {
-  color: #c4ff44;
-}
-
 .menu-items .closebtn {
   position: absolute;
   top: 20px;
   right: 45px;
   font-size: 30px;
-  color: #c4ff44;
+  color: #fff;
 }
 
 .mobile {
@@ -402,15 +471,15 @@ footer .social-media-icons {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(100vh);
+    height: calc(100vh - 79.6px);
     border-radius: 0;
   }
 
   .top-top-nav {
-    background-color: #c4ff44;
+    background-color: #272a31;
     display: flex;
     justify-content: flex-end;
-    color: #000;
+    color: #fff;
     padding: 5px 70px;
   }
 
@@ -436,8 +505,19 @@ footer .social-media-icons {
     padding: 10px 70px;
     position: sticky;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 2px 10px #181818;
+    background-color: #fff;
+    box-shadow: 0 2px 10px #2e2e2e;
+    z-index: 5;
+  }
+
+  .top-nav a {
+    color: #000;
+  }
+
+  .top-nav ul li:last-child a {
+    border: 5px solid #ec5242;
+    padding: 10px;
+    color: #ec5242;
   }
 
   .top-nav ul {
@@ -446,54 +526,102 @@ footer .social-media-icons {
   }
 
   .top-nav ul li {
+    padding: 15px;
     margin: 0 20px;
   }
 
   .musics-container a {
-    width: 33.33%;
+    flex-direction: column;
+    transition-duration: 0.2s;
+  }
+
+  .musics-container a:hover {
+    border: 0.1px solid #fff;
   }
 
   .top-nav ul li a:hover {
-    color: #c4ff44;
+    color: #ec5242;
   }
 
   .heading-content h1 {
-    font-size: 50px;
-    width: 550px;
-    text-align: center;
-    margin-top: 70px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 70px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-transform: uppercase;
   }
 
   .heading-content p {
-    text-align: center;
-    margin: auto 0;
+    margin: 20px 40px;
+    font-size: 18px;
+    width: 700px;
+    padding: 10px 20px;
+  }
+
+  .location-date {
+    width: 500px;
+    margin-left: 40px;
+  }
+
+  .location-date .date {
+    font-weight: bold;
+    font-size: 40px;
   }
 
   .events-btn {
     width: 30%;
     padding: 15px 30px;
     font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+    text-decoration: underline;
+  }
+
+  .events-btn:hover {
+    color: #ec5242;
   }
 
   .top-songs h2,
   .featured-performers h2 {
     font-size: 40px;
+    text-align: center;
   }
 
   .musics-container {
-    padding: 20px 60px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    column-gap: 1.125rem;
+    justify-content: center;
+  }
+
+  .performers {
+    max-width: 700px; 
   }
 
   .performers-container {
-    padding: 0 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.125rem;
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+    min-width: 768px;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+
+  .performer-img img {
+    width: 110px;
+    height: 140px;
+  }
+
+  .performance-descrtiption .performance-info {
+    font-size: 13px;
+    line-height: 15px;
   }
 
   .partners {
-    margin-top: 25px;
     padding: 40px;
-    border: 1px solid #c4ff44;
   }
 
   .partners-container {
@@ -504,8 +632,7 @@ footer .social-media-icons {
 
   .partners h2 {
     font-family: 'COCOGOOSE', sans-serif;
-    font-size: 50px;
-    color: #000;
+    font-size: 40px;
     text-align: center;
   }
 
@@ -521,19 +648,25 @@ footer .social-media-icons {
 
   /* ---------------------About page Desktop---------------------------- */
 
+  .about-us-section h1 {
+    font-size: 70px;
+    margin: 40px 0;
+  }
+
   .about-content {
     padding: 20px 40px;
   }
 
   .about-content p {
+    font-size: 22px;
     width: 70%;
-    margin: 20px auto;
-    padding: 30px 40px;
+    margin: 0 auto ;
+    padding: 20px 30px;
   }
 
   .about-content .contact-us {
     width: 50%;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
     text-align: center;
   }
 
@@ -556,7 +689,49 @@ footer .social-media-icons {
     margin: 20px auto;
   }
 
-  footer {
-    padding: 5px 40px;
+  .tickets-sold {
+    flex-direction: row;
   }
+
+  .tickets-sold li {
+    max-width: 38.5rem;
+    max-height: 21.875rem;
+  }
+
+  .tickets-sold li:first-child {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  footer {
+    padding: 50px 40px;
+  }
+
+  .footer-poprax {
+    margin: 20px;
+    color: #000;
+    font-size: 30px;
+  }
+
+  .footer-content {
+    color: #272a31;
+    line-height: 27px;
+    font-size: 20px;
+  }
+
+  .about-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #272a31;
+    width: 100%;
+    padding: 50px 40px;
+  }
+  
+  .about-footer .footer-poprax {
+    color: #fff;
+  }
+  
+  .about-footer .footer-content {
+    color: #fff;
+  }  
 }
