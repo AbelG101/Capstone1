@@ -293,6 +293,12 @@ a {
   background-image: url(./images/ticket-2.jpg);
 }
 
+.info h3,
+.ticketing-info h3 {
+  font-size: 40px;
+  color: #ec5242;
+}
+
 .tickets-sold li h3 {
   font-size: 25px;
   text-align: center;
@@ -323,11 +329,7 @@ a {
   margin: 20px 0;
 }
 
-.info h3,
-.ticketing-info h3 {
-  font-size: 40px;
-  color: #ec5242;
-}
+
 
 /* Ticketing */
 
@@ -524,6 +526,10 @@ footer {
     transition-duration: 0.2s;
   }
 
+  .musics-container a:hover {
+    border: 0.1px solid #fff;
+  }
+
   .top-nav ul li:last-child a {
     border: 5px solid #ec5242;
     padding: 10px;
@@ -538,10 +544,6 @@ footer {
   .top-nav ul li {
     padding: 15px;
     margin: 0 20px;
-  }
-
-  .musics-container a:hover {
-    border: 0.1px solid #fff;
   }
 
   .top-nav ul li a:hover {
@@ -733,5 +735,5 @@ footer {
   .about-footer .footer-content {
     color: #fff;
   }
-  
+
 }
