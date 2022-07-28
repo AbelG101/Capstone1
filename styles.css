@@ -1,0 +1,738 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+#home {
+  background: url(./images/antoine.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.menu-icon {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.heading-content {
+  padding: 20px;
+  height: 100%;
+}
+
+.heading-content h1 {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+  margin-bottom: 20px;
+}
+
+.heading-content p {
+  margin: 50px 0;
+  padding: 5px 20px;
+  line-height: 27px;
+  border: 1px solid lightgray;
+}
+
+.location-date {
+  margin: 30px 0;
+}
+
+.location-date .date {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.location-date .location {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.events-btn {
+  margin: 20px auto;
+  width: 80%;
+  display: block;
+  text-align: center;
+  background: #ec5242;
+  color: #fff;
+  padding: 15px 25px;
+}
+
+/* ---------------------Top-Songs-section------------------------- */
+
+.top-songs {
+  text-align: center;
+  background-color: #272a31;
+  padding: 20px 0;
+}
+
+.top-songs h2 {
+  display: inline-block;
+  font-family: 'COCOGOOSE', sans-serif;
+  margin: 20px auto;
+  border-bottom: 1px solid #ec5242;
+}
+
+.musics-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  row-gap: 1.125rem;
+  padding: 2.5rem 0.875rem;
+  justify-items: center;
+}
+
+.musics-container a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 0.5rem;
+  background-color: rgb(128 128 128 / 20%);
+  cursor: pointer;
+}
+
+.music {
+  margin: 10px;
+}
+
+.music .music-author {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ec5242;
+}
+
+/* -------------------Featured Performers Section-------------------------- */
+
+.featured-performers {
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.featured-performers h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+  display: inline-block;
+  margin: 20px 0;
+  border-bottom: 1px solid #ec5242;
+}
+
+.performers-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  row-gap: 3.875rem;
+  padding: 2.5rem 24px;
+  justify-items: center;
+  text-align: left;
+}
+
+.performers {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.performers-container img {
+  width: 80px;
+  height: 95px;
+}
+
+.performance-descrtiption .performer-name {
+  font-weight: bold;
+}
+
+.performance-descrtiption .performance-info {
+  margin: 10px 0;
+  color: #272a31;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 0.8rem;
+  opacity: 0.7;
+}
+
+.book-btn {
+  background-color: #c4ff44;
+  padding: 10px 20px;
+  float: right;
+  color: #000;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* --------------About Us---------------- */
+
+.about-icons {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.about-us-section header {
+  background: url(./images/about-us.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-section header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-section h1 {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #ec5242;
+  font-size: 34px;
+  border-bottom: 1px solid #ec5242;
+  align-self: center;
+  margin: 20px 0;
+}
+
+.about-content {
+  padding: 20px;
+}
+
+.about-content p {
+  font-size: 15px;
+  line-height: 27px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+}
+
+.about-content .contact-us {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-content .email-link {
+  display: block;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.about-us-section .concert {
+  background-color: #ddd;
+  color: #000;
+}
+
+.about-us,
+.ticketing {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-top: 1px solid #ababab;
+  background-color: #ddd;
+}
+
+.tickets-sold {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tickets-sold li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 35vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset -100vw -100vh #ec534280;
+  cursor: pointer;
+}
+
+.tickets-sold li:first-child {
+  background-image: url(./images/ticket-1jpg);
+  margin-bottom: 10px;
+}
+
+.tickets-sold li:last-child {
+  background-image: url(./images/ticket-2.jpg);
+}
+
+.info h3,
+.ticketing-info h3 {
+  font-size: 40px;
+  color: #ec5242;
+}
+
+.tickets-sold li h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.about-us-section h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #000;
+  border-bottom: 1px solid #ec5242;
+  font-size: 50px;
+  margin: 10px auto;
+}
+
+.concert p {
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.concerts-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.concerts-info .info {
+  width: 50%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Ticketing */
+
+.ticketing p:first-of-type {
+  text-align: center;
+  margin: 20px 0;
+  color: #000;
+}
+
+.ticketing-info {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* footer */
+
+footer {
+  background-color: #fff;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-poprax {
+  margin: 20px;
+  color: #000;
+  font-size: 18px;
+}
+
+.footer-content {
+  color: #272a31;
+  font-size: 12px;
+}
+
+.about-footer {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+.about-footer .footer-poprax {
+  color: #000;
+}
+
+.about-footer .footer-content {
+  color: #272a31;
+}
+
+.partners {
+  text-align: center;
+  padding: 15px;
+  background-color: #2e2e2e;
+  color: #fff;
+  width: 100%;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.partners-container img {
+  width: 20%;
+  margin: 10px 15px;
+}
+
+.partners h2 {
+  font-family: 'COCOGOOSE', sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  border-bottom: 1px solid #ec5242;
+  text-align: center;
+  margin: 0 auto  20px auto;
+}
+
+.menu-items {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.4s ease-in-out;
+}
+
+.menu-items.open {
+  width: 100%;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menu-items a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  margin: 40px 0;
+}
+
+.menu-items .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+/* ========================Desktop=========================== */
+
+@media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  #home {
+    background: url(./images/desktop-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 79.6px);
+    border-radius: 0;
+  }
+
+  .top-top-nav {
+    background-color: #272a31;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    padding: 5px 70px;
+  }
+
+  footer ul {
+    width: 40%;
+    margin: 15px auto;
+  }
+
+  .top-top-nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .tickets-sold li {
+    max-width: 38.5rem;
+    max-height: 21.875rem;
+  }
+
+  .top-top-nav ul li {
+    margin: 0 20px;
+  }
+
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 70px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px #2e2e2e;
+    z-index: 5;
+  }
+
+  .top-nav a {
+    color: #000;
+  }
+
+  .musics-container a {
+    flex-direction: column;
+    transition-duration: 0.2s;
+  }
+
+  .musics-container a:hover {
+    border: 0.1px solid #fff;
+  }
+
+  .top-nav ul li:last-child a {
+    border: 5px solid #ec5242;
+    padding: 10px;
+    color: #ec5242;
+  }
+
+  .top-nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .top-nav ul li {
+    padding: 15px;
+    margin: 0 20px;
+  }
+
+  .top-nav ul li a:hover {
+    color: #ec5242;
+  }
+
+  .heading-content h1 {
+    font-size: 70px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-transform: uppercase;
+  }
+
+  .heading-content p {
+    margin: 20px 40px;
+    font-size: 18px;
+    width: 700px;
+    padding: 10px 20px;
+  }
+
+  .location-date {
+    width: 500px;
+    margin-left: 40px;
+  }
+
+  .location-date .date {
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .events-btn {
+    width: 30%;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+    text-decoration: underline;
+  }
+
+  .events-btn:hover {
+    color: #ec5242;
+  }
+
+  .top-songs h2,
+  .featured-performers h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .musics-container {
+    grid-template-columns: repeat(auto-fit, 200px);
+    column-gap: 1.125rem;
+    justify-content: center;
+  }
+
+  .performers {
+    max-width: 700px;
+  }
+
+  .performers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.125rem;
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+    min-width: 768px;
+    margin: 0 auto;
+  }
+
+  .performer-img img {
+    width: 110px;
+    height: 140px;
+  }
+
+  .performance-descrtiption .performance-info {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .partners {
+    padding: 40px;
+  }
+
+  .partners-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 10px;
+  }
+
+  .partners h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .partners-container img {
+    width: 15%;
+    margin: 10px 20px;
+    transition-duration: 0.2s;
+  }
+
+  .partners-container img:hover {
+    scale: 1.2;
+  }
+
+  /* ---------------------About page Desktop---------------------------- */
+
+  .about-us-section h1 {
+    font-size: 70px;
+    margin: 40px 0;
+  }
+
+  .about-content {
+    padding: 20px 40px;
+  }
+
+  .about-content p {
+    font-size: 22px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 30px;
+  }
+
+  .about-content .contact-us {
+    width: 50%;
+    margin: 10px auto 0 auto;
+    text-align: center;
+  }
+
+  .concerts-info .info {
+    width: 33.33%;
+  }
+
+  .about-icons {
+    font-size: 70px;
+  }
+
+  .info h3,
+  .ticketing-info h3 {
+    font-size: 60px;
+  }
+
+  .ticketing p:first-of-type {
+    font-size: 24px;
+    width: 40%;
+    margin: 20px auto;
+  }
+
+  .tickets-sold {
+    flex-direction: row;
+  }
+
+  .tickets-sold li:first-child {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  footer {
+    padding: 50px 40px;
+  }
+
+  .footer-poprax {
+    margin: 20px;
+    color: #000;
+    font-size: 30px;
+  }
+
+  .footer-content {
+    color: #272a31;
+    line-height: 27px;
+    font-size: 20px;
+  }
+
+  .about-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #272a31;
+    width: 100%;
+    padding: 50px 40px;
+  }
+
+  .about-footer .footer-poprax {
+    color: #fff;
+  }
+
+  .about-footer .footer-content {
+    color: #fff;
+  }
+}
