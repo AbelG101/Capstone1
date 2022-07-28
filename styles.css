@@ -17,7 +17,7 @@ body {
 }
 
 #home {
-  background: url(./images/antoine-j-7TLZWgfid1U-unsplash\(1\)\(1\).jpg);
+  background: url(./images/antoine.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -365,7 +365,8 @@ footer .social-media-icons {
   margin: 40px 0;
 }
 
-.menu-items a:hover, .menu-items a:focus {
+.menu-items a:hover, 
+.menu-items a:focus {
   color: #c4ff44;
 }
 
@@ -413,11 +414,16 @@ footer .social-media-icons {
     padding: 5px 70px;
   }
 
+  footer ul {
+    width: 40%;
+    margin: 15px auto;
+  }
+
   .top-top-nav ul {
     display: flex;
     list-style-type: none;
   }
-  
+
   .top-top-nav ul li {
     margin: 0 20px;
   }
@@ -429,7 +435,7 @@ footer .social-media-icons {
     width: 100%;
     padding: 10px 70px;
     position: sticky;
-    top: 0px;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 10px #181818;
   }
@@ -441,6 +447,10 @@ footer .social-media-icons {
 
   .top-nav ul li {
     margin: 0 20px;
+  }
+
+  .musics-container a {
+    width: 33.33%;
   }
 
   .top-nav ul li a:hover {
@@ -476,10 +486,6 @@ footer .social-media-icons {
     padding: 20px 60px;
   }
 
-  .musics-container a {
-    width: 33.33%;
-  }
-
   .performers-container {
     padding: 0 60px;
   }
@@ -513,49 +519,44 @@ footer .social-media-icons {
     scale: 1.2;
   }
 
-    /* ---------------------About page Desktop---------------------------- */
+  /* ---------------------About page Desktop---------------------------- */
 
-    .about-content {
-      padding: 20px 40px;
-    }
-  
-    .about-content p {
-      width: 70%;
-      margin: 20px auto;
-      padding: 30px 40px;
-    }
-  
-    .about-content .contact-us {
-      width: 50%;
-      margin: 0 auto;
-      text-align: center;
-    }
-  
-    .concerts-info .info {
-      width: 33.33%;
-    }
-  
-    .about-icons {
-      font-size: 70px;
-    }
-  
-    .info h3, .ticketing-info h3 {
-      font-size: 60px;
-    }
-  
-    .ticketing p:first-of-type {
-      font-size: 24px;
-      width: 40%;
-      margin: 20px auto;
-    }
+  .about-content {
+    padding: 20px 40px;
+  }
 
-    footer {
-      padding: 5px 40px;
-    }
-  
-    footer ul {
-      width: 40%;
-      margin: 15px auto;
-    }
-    
+  .about-content p {
+    width: 70%;
+    margin: 20px auto;
+    padding: 30px 40px;
+  }
+
+  .about-content .contact-us {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .concerts-info .info {
+    width: 33.33%;
+  }
+
+  .about-icons {
+    font-size: 70px;
+  }
+
+  .info h3, 
+  .ticketing-info h3 {
+    font-size: 60px;
+  }
+
+  .ticketing p:first-of-type {
+    font-size: 24px;
+    width: 40%;
+    margin: 20px auto;
+  }
+
+  footer {
+    padding: 5px 40px;
+  }
 }
