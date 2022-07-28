@@ -14,12 +14,12 @@ const performers = [
   {
     name: 'Billie Eilish',
     description: 'Last summer, Billie Eilish dropped her highly-anticipated sophomore album Happier Than Ever. On February 3, she commenced a massive world tour in support of the record. Eilish will perform over 50 shows throughout the United States, Canada, Europe, and the United Kingdom • Sep 8-10',
-    image:' ./images/TR_NationalAsset_BillieEilish-Duckwrth_SG_1200x628-7cdf61909c.jpg',
+    image: ' ./images/TR_NationalAsset_BillieEilish-Duckwrth_SG_1200x628-7cdf61909c.jpg',
   },
   {
     name: 'Kendric Lamar',
     description: 'Kendrick Lamar used his long-awaited return to wrestle with the complexities and contradictions of hero worship, commanding the spotlight even as he sidestepped its glare. This summer, he will be thrust back to centerstage: A massive trek across North America and Europe will bring Mr. Morale & The Big Steppers, his monumental and divisive fifth album • Jul. 27, 29, 30',
-    image: './images/kendrick-lamar-n95-video.png'
+    image: './images/kendrick-lamar-n95-video.png',
   },
 ];
 

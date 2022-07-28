@@ -365,7 +365,7 @@ footer .social-media-icons {
   margin: 40px 0;
 }
 
-.menu-items a:hover, 
+.menu-items a:hover,
 .menu-items a:focus {
   color: #c4ff44;
 }
@@ -495,7 +495,7 @@ footer .social-media-icons {
     padding: 40px;
     border: 1px solid #c4ff44;
   }
-  
+
   .partners-container {
     display: flex;
     justify-content: space-around;
@@ -508,7 +508,7 @@ footer .social-media-icons {
     color: #000;
     text-align: center;
   }
-  
+
   .partners-container img {
     width: 20%;
     margin: 0 20px;
@@ -545,7 +545,7 @@ footer .social-media-icons {
     font-size: 70px;
   }
 
-  .info h3, 
+  .info h3,
   .ticketing-info h3 {
     font-size: 60px;
   }
