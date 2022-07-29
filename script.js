@@ -4,22 +4,22 @@ const performers = [
   {
     name: 'Shawn Mendes',
     description: 'Wonder: The World Tour • March 14-Oct. 27 the fifth concert tour by Canadian singer-songwriter Shawn Mendes, in support of his fourth studio album Wonder (2020). The concert cycle, presented by Disney+, begin in Portland on June 27, 2022, and was scheduled to end in Dublin on August 1, 2023;',
-    image: './images/shawnMendes.jpg',
+    image: './images/shawnMendes.png',
   },
   {
     name: 'Mitski',
     description: 'The last time Mitski went on tour, she strapped knee pads to her legs like a goalie prepping for the Stanley Cup Finals and literally threw herself into her art. There’s no predicting what or how Mitski will perform on her tour in support of Laurel Hell • Jul 26 - 31. Tue • 8:00pm',
-    image: './images/mitski.jpg',
+    image: './images/mitski.png',
   },
   {
     name: 'Billie Eilish',
     description: 'Last summer, Billie Eilish dropped her highly-anticipated sophomore album Happier Than Ever. On February 3, she commenced a massive world tour in support of the record. Eilish will perform over 50 shows throughout the United States, Canada, Europe, and the United Kingdom • Sep 8-10',
-    image: ' ./images/BillieEilish.jpg',
+    image: ' ./images/BillieEilish.png',
   },
   {
     name: 'Kendric Lamar',
     description: 'Kendrick Lamar used his long-awaited return to wrestle with the complexities and contradictions of hero worship, commanding the spotlight even as he sidestepped its glare. This summer, he will be thrust back to centerstage: • Jul. 27, 29, 30',
-    image: './images/KendrickLamar.jpg',
+    image: './images/KendrickLamar.png',
   },
 ];
 

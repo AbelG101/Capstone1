@@ -389,11 +389,12 @@ footer {
 .partners-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .partners-container img {
   width: 20%;
-  margin: 0 15px;
+  margin: 10px 15px;
 }
 
 .partners h2 {
@@ -643,7 +644,7 @@ footer {
 
   .partners-container img {
     width: 20%;
-    margin: 0 20px;
+    margin: 10px 20px;
     transition-duration: 0.2s;
   }
 
