@@ -1,9 +1,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Concert Booking Website
+# Concert Conference Website
 
-> This is a capstone website project I made for a concert confrence website with only home page and about page. 
+> This is a capstone website project I made for a concert conference website with only home page and about page. 
 > [Checkout the live working demo](https://abelg101.github.io/Capstone1/)
 
 ## Built With
